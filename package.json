@@ -23,6 +23,8 @@
     "eslint-plugin-react": "^7.21.1",
     "eslint-plugin-standard": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
-    "@typescript-eslint/experimental-utils": "^4.31.1"
+    "@typescript-eslint/experimental-utils": "^4.31.1",
+    "lint-staged": "^11.1.2",
+    "husky": "^7.0.2"
   }
 }
