@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint:fix": "npm run lint -- --fix",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
