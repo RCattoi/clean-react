@@ -4,17 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
-    "prepare": "husky install",
-    "lint-staged": {
-      "*.{js,ts}": ["eslint --fix", "git add"]
-    }
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
