@@ -11,7 +11,10 @@
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": {
+      "*.{js,ts}": ["eslint --fix", "git add"]
+    }
   },
   "keywords": [],
   "author": "",
